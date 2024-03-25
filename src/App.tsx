@@ -1,22 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import BESalaryImage from './besalary.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={BESalaryImage} alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          BeSalary stuff will appear soon...
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.reddit.com/r/BESalary/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          /r/BESalary
         </a>
       </header>
     </div>
